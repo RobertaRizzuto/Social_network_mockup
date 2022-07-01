@@ -2,7 +2,7 @@
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #f15757 #f0f0f0;
+  scrollbar-color: #536BC5 #f0f0f0;
 }
 
 /* Chrome, Edge, and Safari */
@@ -15,7 +15,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #f15757;
+  background-color: #536BC5;
   border-radius: 10px;
   border: 1px solid #ffffff;
 }
@@ -45,13 +45,14 @@ header {
   color: white;
 }
 button {
-  background-color: #f15757;
+  background-color: #536BC5;
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .main-navbar {
-  display: flex;
+  background: rgb(245, 244, 255);
+ display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 10px 20px; 
@@ -94,7 +95,10 @@ a {
 .main-navbar ul li ul li:hover {
   padding: 4px;
   border-radius: 5px;
-  background-color: #f15757ab;
+  background-color: #536BC5ab;
+}
+.main-navbar ul li ul li a:hover{
+  color: white;
 }
 /* menù a comparsa fine*/
 
@@ -103,8 +107,9 @@ a {
   flex-direction: column;
   padding: 10px;
   gap: 20px;
-
-  background: #f15757;
+  border-radius: 10px;
+  background: rgb(225,224,231);
+background: linear-gradient(278deg, rgba(225,224,231,1) 0%, rgba(83,107,197,1) 53%, rgba(53,40,66,1) 100%);
 }
 
 .friends img {
@@ -178,16 +183,11 @@ a {
    gap: 20px;
 }
 .gallery{
-  
+  color: white;
   border-radius: 10px;
  
-  background: rgb(195, 125, 93);
-  background: linear-gradient(
-    270deg,
-    rgba(241, 87, 87, 0.863) 45%,
-    
-    rgb(255, 255, 255) 98%
-  );
+  background: rgb(225,224,231);
+background: linear-gradient(276deg, rgba(225,224,231,1) 0%, rgba(83,107,197,1) 53%, rgba(53,40,66,1) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
